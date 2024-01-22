@@ -1,0 +1,67 @@
+body {
+  border : solid 2px rgb(218, 214, 214);
+}
+h1 {
+  background-color: rgb(244, 79, 79);
+  color: white;
+  width:100%;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+h2::before {
+  content: "●";
+  color: pink;
+}
+h2 {
+  border-bottom: dotted 3px orange;
+  font-size: 30px;
+} 
+main {
+  margin: 10px 10px 10px 10px;
+}
+ #parent {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+}
+.contents {
+  flex-basis: 25%;
+  border : solid 3px rgb(238, 208, 208);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 20px 0 20px 0; 
+  text-align: center; 
+}
+@media screen and (max-width: 768px) {
+#parent {
+     display: block;
+  }
+}
+div p:nth-of-type(2):first-letter {
+  color: rgb(97, 206, 249);
+  font-weight: bold;
+}
+
+p {
+ font-size: 25px;
+}
+a {
+  color: rgb(255, 255, 255); 
+}
+a:visited {
+  color: rgb(193, 234, 251);
+}
+a:hover {
+  color: rgb(245, 178, 168);
+}
+#footerWrap{
+	width:100%;
+}
+#footer{
+  text-align: center;
+	width:100%; /* フッター幅を指定*/
+	margin:0 auto;
+  background-color: rgb(244, 79, 79);
+}
