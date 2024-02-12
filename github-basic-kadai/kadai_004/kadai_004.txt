@@ -1,0 +1,11 @@
+commit 0e99578d2acbd5be74d3f995bfd8a4f05177e70d (HEAD -> main)
+Author: masatoshi.n <niea.lily@gmail.com>
+Date:   Mon Feb 12 14:39:30 2024 +0900
+
+    日本語を追記
+
+commit b25a09c3d2b63b122e531acdbef6853e6fd47750
+Author: masatoshi.n <niea.lily@gmail.com>
+Date:   Mon Feb 12 14:34:32 2024 +0900
+
+    hello_world.txtを追加
